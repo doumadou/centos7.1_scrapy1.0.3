@@ -9,7 +9,7 @@
 yum -y install libxslt-devel
 yum -y install libffi-devel
 
-yum install -y python-tornado MySQL-python
+yum install -y python-tornado MySQL-python mysql
 pip_url=https://pypi.python.org/packages/source/p/pip/pip-7.0.1.tar.gz
 pip_pkg=`basename $pip_url`
 if [ ! -f $pip_pkg ];then
